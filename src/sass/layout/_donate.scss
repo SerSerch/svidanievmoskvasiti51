@@ -1,0 +1,38 @@
+.donate {
+  position: relative;
+  margin-top: -25%;
+  padding: 25% 0 14%;
+  background-repeat: no-repeat;
+  background-position: left bottom -15%, center top;
+  background-image: url(../svg/line3.svg), url(../svg/v3.svg);
+  background-size: 32%, cover;
+  background-color: #d7b3b3;
+  overflow: hidden;
+  &__caption {
+    padding: 100px 0 50px;
+  }
+  &__btn {
+    margin: 40px 0 30px;
+  }
+  &__question {
+    padding: 30px 15px 80px 30px;
+    background-color: #fff;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+
+  }
+  &__question-text {
+    padding: 40px 0;
+  }
+  &__wave {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-top: 28%;
+    background-image: url(../svg/v4.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    transform: translateY(50%);
+  }
+}

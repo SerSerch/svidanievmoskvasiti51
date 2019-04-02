@@ -1,0 +1,31 @@
+.questions {
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 20%;
+  background-color: #F4DCDC;
+  background-image: url(../svg/e2.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  &__wave {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-top: 31%;
+    background-image: url(../svg/v6.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    transform: translateY(28%);
+  }
+  &__caption {
+    padding: 35px 0;
+  }
+  &__text {
+    padding: 25px 0;
+  }
+  &__btn {
+    margin: 40px 30px 30px 0;
+  }
+}

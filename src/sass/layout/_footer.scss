@@ -1,0 +1,25 @@
+.footer {
+  position: relative;
+  margin-top: -20%;
+  padding-top: 20%;
+  &__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-image: url(../svg/footer.svg);
+    padding-bottom: 15%;
+  }
+  &__contacts-box {
+    margin-top: 100px;
+    background-color: rgba(213, 175, 175, 0.6);
+  }
+  &__contact {
+    color: #fff;
+    font-weight: 700;
+    padding: 10px 0;
+  }
+}
