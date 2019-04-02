@@ -1,0 +1,58 @@
+.arrange {
+  padding-top: 100px;
+  &__caption {
+
+  }
+  &__map {
+    background-repeat: no-repeat;
+    background-position: left 115px bottom, center top;
+    background-size: 200px, 55%;
+    background-image: url(../svg/fly.svg), url(../svg/zav.svg);
+  }
+  &__row {
+    min-height: 150px;
+  }
+  &__number {
+    padding-bottom: 24px;
+    color: #D5AFAF;
+  }
+  &__wave {
+    padding-top: 20%;
+    background-image: url(../svg/v5.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+  }
+}
+
+@media (max-width: 991px) {
+  .arrange {
+    &__map {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      background-position: left 50px bottom, right -42px top;
+      background-size: 150px, 80% auto;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .arrange {
+    background-image: url(../svg/zav2.svg);
+    background-position: right center;
+    background-size: 35% auto;
+    background-repeat: no-repeat;
+    &__map {
+      background-image: url(../svg/fly.svg);
+      background-position: left 50px bottom;
+      background-size: 150px;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .arrange {
+    background-size: 50% auto;
+  }
+}

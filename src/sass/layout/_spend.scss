@@ -1,0 +1,58 @@
+.spend {
+  padding-bottom: 145px;
+  overflow: hidden;
+  &__caption {
+    padding: 100px 0 40px;
+  }
+  &__sub-caption {
+    padding: 60px 0 20px;
+  }
+  &__text {
+    padding-top: 30px;
+  }
+  &__bg-img {
+    position: relative;
+    padding: 50% 0;
+    background-image: url(../img/photo/13.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 80px -125px 0 #D5AFAF;
+    &::before, &::after {
+      position: absolute;
+      display: block;
+      width: 215px;
+      content: '';
+      background-color: rgba(240, 240, 240, 0.6);
+    }
+    &::before {
+      height: 82px;
+      top: 40px;
+      right: 0;
+      transform: translateX(165px);
+    }
+    &::after {
+      height: 74px;
+      bottom: 0;
+      right: 25px;
+      transform: translateY(50%);
+    }
+  }
+  &__btn {
+    position: absolute;
+    left: -80px;
+    bottom: 60px;
+  }
+}
+
+@media (max-width: 991px) {
+  .spend {
+    &__bg-img {
+      margin-top: 75px;
+      box-shadow: 80px -45px 0 #D5AFAF;
+    }
+    &__btn {
+      left: 30px;
+    }
+  }
+}

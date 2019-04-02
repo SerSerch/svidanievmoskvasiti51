@@ -1,0 +1,41 @@
+.header {
+  position: relative;
+  padding-top: 14%;
+  padding-bottom: 21%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url(../svg/e1.svg), url(../img/photo/image2.2.png);
+  background-size: cover;
+
+  &__caption {
+    padding: 40px 0;
+  }
+
+  &__caption-carry {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+  &__btn {
+    margin-bottom: 30px;
+  }
+
+  &__wave {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-top: 21%;
+    background-image: url(../svg/v1.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+  }
+}
+
+@media (max-width: 575px) {
+  .header {
+    padding-top: 70%;
+    background-image: url(../svg/e1.svg), url(../img/photo/image2.1.jpg);
+  }
+}

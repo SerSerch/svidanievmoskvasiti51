@@ -3,11 +3,11 @@ html
   head
     include _head
   body
-    include _counters
     .wrapper
-
-      include _top-menu
-      main.main
-        block content
+      include _counters
+      .wrap-container
+        include _top-menu
+        main.main
+          block content
       include _footer
       include _end

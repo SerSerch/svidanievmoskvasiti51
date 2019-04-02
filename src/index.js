@@ -1,1 +1,3 @@
-// import './sass/critical.scss';
+import 'normalize.css';
+import './bootstrap-grid.min.css';
+import './sass/index.scss';

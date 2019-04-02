@@ -1,0 +1,45 @@
+.enjoy {
+  padding: 100px 0 20%;
+  background: url(../svg/line1.svg) right top no-repeat, url(../svg/line2.svg) left bottom -25% no-repeat;
+  background-size: 11% auto, 32% auto;
+  &__caption {
+    position: relative;
+    &::before {
+      display: block;
+      position: absolute;
+      content: '';
+      width: 7%;
+      height: 4px;
+      background-color: #f00;
+      top: 50%;
+      left: -20px;
+      transform: translate(-100%, -50%);
+      border-radius: 1px;
+    }
+  }
+  &__item {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  &__img-box {
+    height: 150px;
+  }
+  &__img {
+    display: block;
+    max-width: 100%;
+    height: 100%;
+  }
+  &__text {
+    padding-top: 40px;
+  }
+}
+
+@media (max-width: 991px) {
+  .enjoy {
+    &__caption {
+      &::before {
+        display: none;
+      }
+    }
+  }
+}
