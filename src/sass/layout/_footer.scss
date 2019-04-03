@@ -1,7 +1,6 @@
 .footer {
   position: relative;
-  margin-top: -20%;
-  padding-top: 20%;
+  margin-top: -50%;
   &__bg {
     position: absolute;
     top: 0;
@@ -11,11 +10,10 @@
     background-position: center top;
     background-size: cover;
     background-image: url(../svg/footer.svg);
-    padding-bottom: 15%;
+    padding-top: 100px;
   }
   &__contacts-box {
-    margin-top: 100px;
-    background-color: rgba(213, 175, 175, 0.6);
+    padding: 15% 0;
   }
   &__contact {
     color: #fff;

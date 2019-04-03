@@ -1,12 +1,11 @@
 .donate {
   position: relative;
-  margin-top: -25%;
+  margin-top: -40%;
   padding: 25% 0 14%;
   background-repeat: no-repeat;
   background-position: left bottom -15%, center top;
   background-image: url(../svg/line3.svg), url(../svg/v3.svg);
   background-size: 32%, cover;
-  background-color: #d7b3b3;
   overflow: hidden;
   &__caption {
     padding: 100px 0 50px;
@@ -23,16 +22,18 @@
   &__question-text {
     padding: 40px 0;
   }
+  &__text {
+    padding-bottom: 60px;
+  }
   &__wave {
     position: absolute;
     left: 0;
     right: 0;
     bottom: 0;
-    padding-top: 28%;
+    padding-top: 14%;
     background-image: url(../svg/v4.svg);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center bottom;
-    transform: translateY(50%);
+    background-size: 100% auto;
+    background-position: center bottom -2px;
   }
 }

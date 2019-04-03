@@ -78,6 +78,10 @@
       transform: translateY(-50%);
     }
   }
+  &__sub-text {
+    padding-top: 30px;
+    font-weight: 700;
+  }
 }
 
 @media (max-width: 767px) {
